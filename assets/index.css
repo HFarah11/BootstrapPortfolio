@@ -1,0 +1,147 @@
+body,
+html {
+}
+
+body {
+  position: relative;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('ng');
+  opacity: -10;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 2;
+}
+
+.border {
+  border-color: teal !important;
+  border-style: solid;
+  border: 50px;
+  border-radius: 5%;
+  margin-top: 10px;
+}
+
+div.row-one {
+  margin-top: 35px;
+}
+
+.container2 {
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.nav-item2 {
+  background-color: #212529;
+  color: white;
+  padding-left: 0;
+}
+
+.options {
+  background-color: #212529;
+  color: white;
+  display: block;
+  padding: 10px 50px 10px 0px;
+}
+
+a.options {
+  padding-left: 60px;
+}
+
+.active {
+  background-color: #212529;
+  color: white;
+  display: block;
+}
+.options a {
+  background-color: #212529;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+.options:hover {
+  background-color: teal;
+  text-decoration: none;
+  color: white;
+}
+
+a.active {
+  background-color: teal;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar-dark .navbar-brand {
+  color: white;
+}
+
+.navbar {
+  border-bottom: 5px;
+  border-bottom-color: teal;
+  border-bottom-style: solid;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.container {
+  padding-bottom: 100px;
+}
+
+.footer {
+  background: #212529;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border-top: 5px;
+  border-top-color: teal;
+  border-top-style: solid;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#sticky {
+  width: 100%;
+  height: 100px;
+
+  position: fixed; /*Here's what sticks it*/
+  bottom: 0; /*to the bottom of the window*/
+  left: 0; /*and to the left of the window.*/
+}
+
+@media only screen and (max-width: 769px) {
+  .footer {
+    margin-top: 80px;
+  }
+
+  #para {
+    margin-top: 2rem;
+  }
+
+  .container-fluid {
+    width: 360px;
+    margin-top: 25px;
+    font-family: sans-serif;
+  }
+
+  .active a {
+    background-color: #212529;
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,93 @@
+body,
+html {
+}
+
+body {
+  position: relative;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('ng');
+  opacity: -10;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 2;
+}
+
+.border {
+  border-color: teal !important;
+  border-style: solid;
+  border: 50px;
+  border-radius: ;
+  margin-top: 47px;
+}
+
+div.row h100 {
+  margin-top: 35px;
+}
+
+.navbar-dark .navbar-brand {
+  color: white;
+}
+
+.navbar {
+  border-bottom: 5px;
+  border-bottom-color: teal;
+  border-bottom-style: solid;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.container {
+  padding-bottom: 100px;
+}
+
+#rowone {
+  margin-top: 20px;
+}
+
+img {
+  box-sizing: border-box;
+}
+#img1 {
+  background: #4aaaa5;
+  color: white;
+  z-index: 1;
+  width: 222px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  background: #212529;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border-top: 5px;
+  border-top-color: teal;
+  border-top-style: solid;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#sticky {
+  width: 100%;
+  height: 100px;
+
+  position: fixed; /*Here's what sticks it*/
+  bottom: 0; /*to the bottom of the window*/
+  left: 0; /*and to the left of the window.*/
+}
